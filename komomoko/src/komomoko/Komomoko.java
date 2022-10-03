@@ -1,20 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package komomoko;
 
-/**
- *
- * @author MASTER DUNIA
- */
 public class Komomoko {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+  
+    public static void main(String[] args) 
+    {
+
+        int a = 1000;
+        int b = 2000;
+        int c = 3000;
+       
+        int d = a + c;
+        int e = d + b;
+        
+        System.out.println(e);
+        
+        
     }
     
 }
